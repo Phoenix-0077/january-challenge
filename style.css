@@ -1,9 +1,13 @@
 body{
-    margin: 0px 170px;
+    margin: 0;
+}
+.first-page{
     background-image: url(etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 760px;
+    padding: 0 150px;
 }
 .header{
     display: flex;
@@ -26,7 +30,7 @@ a{
 }
 .main{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: relative;
     top: 50px;
@@ -36,6 +40,8 @@ h1{
     color: #fff;
     font-weight: 700;
     font-size: 2.5rem;
+    position: relative;
+    top: 30px;
 }
 .map-select{
     display: grid;
@@ -45,18 +51,39 @@ span{
     padding: 5px 10px;
     box-sizing: border-box;
     border: none;
-    border-radius: 10px;
+    border-radius: 7px;
     height: fit-content;
     width: 410px;
     position: relative;
     top: -13px;
     left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #all-type, #neighbourhood{
     height: 40px;
+    width: 150px;
     padding: 10px;
+    border-radius: 5px;
 }
 #search{
     background-color: #23A6F0;
     border: 1px solid #E6E6E6;
+    height: 40px;
+    width: 40px;
 }
+.second-page{
+    background-color: #E5E5E5;
+    height: 760px;
+    padding: 0 150px;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perks{
+    display: inline-block;
+}
+
