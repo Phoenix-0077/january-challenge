@@ -47,13 +47,14 @@ span{
     border: none;
     border-radius: 10px;
     height: fit-content;
-    width: 430px;
+    width: 410px;
+    position: relative;
+    top: -13px;
+    left: 20px;
 }
-#all-type{
+#all-type, #neighbourhood{
     height: 40px;
-}
-#neighbourhood{
-    height: 40px;
+    padding: 10px;
 }
 #search{
     background-color: #23A6F0;
