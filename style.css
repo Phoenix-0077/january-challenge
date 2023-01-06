@@ -1,0 +1,61 @@
+body{
+    margin: 0px 170px;
+    background-image: url(etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 2px solid #fff;
+}
+#nav{
+    list-style-type: none;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.nav-list{
+    padding: 0 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+h1{
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.map-select{
+    display: grid;
+}
+span{
+    background-color: #fff;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    height: fit-content;
+    width: 430px;
+}
+#all-type{
+    height: 40px;
+}
+#neighbourhood{
+    height: 40px;
+}
+#search{
+    background-color: #23A6F0;
+    border: 1px solid #E6E6E6;
+}
