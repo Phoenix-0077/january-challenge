@@ -4,10 +4,11 @@ body{
 .first-page{
     background-image: url(etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
     background-position: center;
-    background-size: cover;
+    background-size:  auto;
     background-repeat: no-repeat;
-    height: 760px;
+    height: 790px;
     padding: 0 150px;
+    border-bottom: 1px blue;
 }
 .header{
     display: flex;
@@ -67,16 +68,21 @@ span{
     padding: 10px;
     border-radius: 5px;
 }
+label{
+    padding-left: 10px;
+}
 #search{
     background-color: #23A6F0;
     border: 1px solid #E6E6E6;
+    margin-left: 3px;
     height: 40px;
     width: 40px;
+    border-radius: 5px;
 }
 .second-page{
     background-color: #E5E5E5;
-    height: 760px;
     padding: 0 150px;
+    border: solid #E5E5E5;
 }
 .main2{
     display: flex;
