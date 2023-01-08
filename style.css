@@ -135,13 +135,13 @@ h2{
 }
 .property-tiles{
     margin: 15px 30px;
+    border-radius: 25px;
+    background-color: #fff;
 }
 .property-tiles:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 #first-tile{
-    border-radius: 25px;
-    background-color: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 h4{
@@ -190,24 +190,4 @@ h4{
 }
 #attributes img{
     padding-right: 15px;
-}
-#second-tile{
-    border-radius: 25px;
-    background-color: #fff;
-}
-#third-tile{
-    border-radius: 25px;
-    background-color: #fff;
-}
-#fourth-tile{
-    border-radius: 25px;
-    background-color: #fff;
-}
-#fifth-tile{
-    border-radius: 25px;
-    background-color: #fff;
-}
-#sixth-tile{
-    border-radius: 25px;
-    background-color: #fff;
 }
