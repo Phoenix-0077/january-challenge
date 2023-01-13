@@ -184,25 +184,71 @@
     <div class="form">
         <h2>add a new property</h2>
         <form method="post">
-            Name * <br>
-            <input type="text" placeholder="Enter Name" name="name"/><br>
-            Address * <br>
-            <input type="text" placeholder="Enter Address" name="address"/><br>
-            Unit Number * <br>
-            <input type="text" placeholder="Enter Unit" name="unit number"/><br>
-            City * <br>
-            <input type="text" placeholder="Enter City" name="city"/><br>
-            State * <br>
-            <input type="text" placeholder="Enter State" name="state"/><br>
-            Room Type * <br>
-            <input type="text" placeholder="Enter Room Type" name="room type"/><br>
-            Price * <br>
-            <input type="text" placeholder="Enter Price" name="price"/><br>
-            Room Type * <br>
-            <input type="text" placeholder="Enter Room Type" name="room type"/><br>
-            Description * <br>
-            <input type="text" placeholder="Enter Description" name="description"/><br>
+            <div class="field">
+                <label>Name *</label><br>
+                <input type="text" placeholder="Enter Name" name="name"/>
+            </div>
+            <div class="field">
+                <label>Address *</label><br>
+                <input type="text" placeholder="Enter Address" name="address"/>
+            </div>
+            <div class="field">
+                <label>Unit Number *</label><br>
+                <input type="text" placeholder="Enter Unit" name="unitnumber"/>
+            </div>
+            <div class="field">
+                <label>City *</label><br>
+                <select class="drop-down" id="city">
+                    <option name="state">Enter City</option>
+                </select> 
+            </div>
+            <div class="field">
+                <label>State *</label><br>
+                <select class="drop-down" id="state">
+                    <option name="state">Enter State</option>
+                </select> 
+            </div>
+            <div class="field">
+                <label>Room Type *</label><br>
+                <select class="drop-down" id="roomtype">
+                    <option name="state">Enter Room Type</option>
+                </select> 
+                </div>
+            <div class="field">
+                <label>Price *</label><br>
+                <input type="text" placeholder="Enter Price" name="price"/>
+            </div>
+            <div class="field">
+                <label>Room Type *</label><br>
+                <select class="drop-down" id="roomtype">
+                    <option name="state">Enter Room Type</option>
+                </select> 
+            </div>
         </form>
+        <label>Description *</label><br>
+        <input type="text" placeholder="Enter Description" name="description"/>
+        <p id="photos">Upload Photos</p>
+        <div class="photo-area">
+            <p>Drag your photos here, or <a href="#">browse</a></p>
+            <p>Supported: JPG, JPEG, PNG</p>
+        </div>
+        <input type="submit" value="Add New Property"/>
+    </div>
+    <div class="property-owner">
+        <div class="not-pic">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nihil in error dolorum eveniet delectus ea, consectetur quam rerum iste quae rem, eos nesciunt impedit excepturi natus odio fugit. Molestias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde quas quisquam libero, praesentium esse sunt laboriosam officia cupiditate blanditiis reprehenderit non eveniet suscipit neque. Accusamus quos harum dolorum nam cupiditate.</p>
+            <img src="Ellipse 4.png"/>
+            <p id="harry">Harry Willson</p>
+            <p id="owner">Property Owner</p>
+            <img src="Ellipse 1.png" class="ellipse"/><img src="Ellipse 2.png" class="ellipse"/><img src="Ellipse 2.png" class="ellipse"/>
+        </div>
+        <img src="content-card-item-8.png" height="500" width="700"/>
+    </div>
+    <div class="pre-footer">
+        <p>Logo</p>
+        <div class="contact">
+            
+        </div>
     </div>
 </body>
 </html>
