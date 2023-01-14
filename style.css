@@ -420,7 +420,7 @@ input[type=submit]{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 150px 130px 50px 130px;
+    margin: 150px 130px 0 130px;
     border-top: 1px solid #F4511E;
     padding: 0 150px;
 }
@@ -442,6 +442,8 @@ input[type=submit]{
 }
 #tel-sign{
     padding-right: 20px;
+    position: relative;
+    left: -7px;
 }
 #printer-sign{
     padding: 0 20px 0 93px;
@@ -459,7 +461,7 @@ input[type=submit]{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 150px;
+    padding: 20px 150px 50px 150px;
 }
 .footer ul{
     display: flex;
@@ -474,4 +476,13 @@ input[type=submit]{
     text-decoration: none;
     color: #0A142F;
     text-transform: uppercase;
+}
+.footer p{
+    color: #0A142F;
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 700px) {
+    
 }
