@@ -509,9 +509,13 @@ input[type=submit]{
     .nav{
         left: 5px;
     }
+    .nav-list{
+        padding: 0 5px;
+    }
     .header a{
-        font-size: x-small;
-        color: #000000;
+        font-size: .7rem;
+        position: relative;
+        left: -200px;
     }
     .main{
         top: 100px;
