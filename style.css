@@ -342,6 +342,12 @@ input[type=text]{
     border: none;
     color: #737373;
 }
+input[type=number]{
+    padding: 10px;
+    background-color: #F9F9F9;
+    border: none;
+    color: #737373;
+}
 [name=description]{
     height: 15vh;
     width: 50vw;
