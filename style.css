@@ -26,7 +26,7 @@ body{
     padding: 0 20px;
 }
 a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 .main{
@@ -492,6 +492,7 @@ input[type=submit]{
     opacity: 0.5;
 }
 
+/*Responsive Web Design for Smart Phones*/
 
 @media screen and (max-width: 700px) {
     .first-page{
@@ -513,26 +514,26 @@ input[type=submit]{
         color: #0000;
     }
     .main{
-        top: 30px;
+        top: 100px;
     }
     h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         top: 2px;
     }
     .map-select img{
-        height: 200px;
-        width: 250px;
+        height: 150px;
+        width: 200px;
     }
     span{
         padding: 5px 10px;
         width: 10px;
         position: relative;
         top: -10px;
-        left: 115px;   
+        left: 89px;   
     }
     #all-type, #neighbourhood{
         height: 40px;
-        width: 100px;
+        width: 73px;
     }
     .second-page{
         padding: 0 20px;
@@ -598,36 +599,38 @@ input[type=submit]{
     }
     #pic1{
         position: relative;
-        left: 40px;
+        left: 20px;
     }
     #pic2{
         top: -40px;
-        left: 20px;
+        left: 0;
     }
     #pic3{
         top: -80px;
-        left: 40px;
+        left: 20px;
     }
     #pic4{
         top: -120px;
-        left: 20px;
+        left: 0;
     }
     .word{
         font-size: 1rem;
     }
     #word-one{
         top: 50px;
+        left: -5px;
     }
     #word-two{
         top: 30px;
+        left: 5px;
     }
     #word-three{
         top: -10px;
-        left: -25px;
+        left: -30px;
     }
     #word-four{
         top: -50px;
-        left: 30px;
+        left: 0;
     }
     .wordings{
         position: relative;
@@ -735,6 +738,7 @@ input[type=submit]{
         left: -45px;
     }
     #SM p{
+        /* display: none; */
         position: relative;
         top: -30px;
         left: 100px;
@@ -745,5 +749,22 @@ input[type=submit]{
         position: relative;
         top: 15px;
         left: -70px;
+    }
+    .footer{
+        display: grid;
+        justify-self: center;
+        padding: 0 20px;
+    }
+    .footer ul{
+        position: relative;
+        left: -40px;
+    }
+    .footer li{
+        padding: 0 5px;
+        font-size: .7rem;
+    }
+    .footer p{
+        font-size: .7rem;
+        padding-left: 10px;
     }
 }
