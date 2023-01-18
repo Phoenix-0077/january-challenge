@@ -1,14 +1,25 @@
+/*Custom fonts used in the website*/
 @font-face{
     font-family: myDM-Sans;
     src: url(/myFonts/DMSans-Regular.ttf);
+}
+@font-face{
     font-family: myInter;
     src: url(/myFonts/Inter-Regular.ttf);
+}
+@font-face{
     font-family: myMontserrat;
     src: url(/myFonts/Montserrat-Regular.ttf);
+}
+@font-face{
     font-family: myPoppins;
     src: url(/myFonts/Poppins-Regular.ttf);
+}
+@font-face{
     font-family: myAssistant;
     src: url(/myFonts/Assistant-Regular.ttf);
+}
+@font-face{
     font-family: myManrope;
     src: url(/myFonts/Manrope-Regular.ttf);
 }
@@ -276,7 +287,7 @@ h4{
     text-align: center;
 }
 .word{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: myInter;
     font-weight: 600;
     font-size: 1.3rem;
     color: #fff;
@@ -297,7 +308,7 @@ h4{
 }
 .wordings{
     margin-left: 30px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: myInter;
 }
 .wordings p{
     padding-bottom: 20px;
@@ -310,10 +321,11 @@ button{
     width: 10vw;
     border: none;
     border-radius: 10px;
+    font-family: myInter;
 }
 #last-word{
     text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: myInter;
     font-weight: 700;
     font-size: 1rem;
     text-transform: capitalize;
@@ -324,7 +336,7 @@ button{
     margin: 30px auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     padding: 70px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: myPoppins;
 }
 .form h2{
     color: #F4511E;
@@ -341,7 +353,7 @@ form{
     padding: 10px 0;
 }
 label{
-    font-weight: 500;
+    font-weight: 600;
     margin-left: -10px;
 }
 .drop-down{
@@ -349,7 +361,7 @@ label{
     width: 14vw;
     background-color: #F9F9F9;
     border: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: myPoppins;
     color: #737373;
 }
 input[type=text]{
@@ -357,12 +369,14 @@ input[type=text]{
     background-color: #F9F9F9;
     border: none;
     color: #737373;
+    font-family: myInter;
 }
 input[type=number]{
     padding: 10px;
     background-color: #F9F9F9;
     border: none;
     color: #737373;
+    font-family: myInter;
 }
 [name=description]{
     height: 15vh;
@@ -374,7 +388,7 @@ input[type=number]{
     top: -45px;
 }
 #photos{
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1rem;
 }
 .photo-area{
@@ -406,6 +420,7 @@ input[type=submit]{
     border-radius: 5px;
     font-size: 1rem;
     width: 30vw;
+    font-family: myInter;
 }
 .property-owner{
     display: flex;
@@ -420,12 +435,15 @@ input[type=submit]{
     padding: 50px 35px 0 100px;
     font-size: 3vh;
 }
+.not-pic p{
+    font-family: myInter;
+    line-height: 2em;
+}
 #harry{
     position: relative;
     top: -75px;
     left: 90px;
     font-size: 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #F4511E;
     font-weight: 700;
 }
@@ -434,7 +452,6 @@ input[type=submit]{
     top: -83px;
     left: 90px;
     font-size: 1rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .ellipse{
     padding-right: 10px;
@@ -451,8 +468,11 @@ input[type=submit]{
 }
 #logo{
     font-size: 4rem;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    font-weight: 700;
+    font-family: myInter; 
+}
+.contact p{
+    font-family: myAssistant;
 }
 #location{
     display: flex;
@@ -508,10 +528,12 @@ input[type=submit]{
     text-decoration: none;
     color: #0A142F;
     text-transform: uppercase;
+    font-family: myInter;
 }
 .footer p{
     color: #0A142F;
     opacity: 0.5;
+    font-family: myInter;
 }
 
 /*Responsive Web Design for Smart Phones*/
@@ -565,7 +587,7 @@ input[type=submit]{
         padding: 0 20px;
     }
     .second-page h2{
-        font-size: .7rem;
+        font-size: 1rem;
     }
     #main2img{
         height: 350px;
@@ -582,7 +604,7 @@ input[type=submit]{
         height: 20px;
         width: 20px;
     }
-    h3{
+    .perks h3{
         font-size: .5rem;    
     }
     .third-page{
@@ -680,7 +702,6 @@ input[type=submit]{
         grid-template-columns: 1fr;
     }
     label{
-        font-weight: 500;
         margin-left: -10px;
     }
     .drop-down{
