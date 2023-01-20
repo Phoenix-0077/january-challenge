@@ -5,11 +5,11 @@
 }
 @font-face{
     font-family: myInter;
-    src: url(/myFonts/Inter-Regular.ttf);
+    src: url(/myFonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 @font-face{
     font-family: myMontserrat;
-    src: url(/myFonts/Montserrat-Regular.ttf);
+    src: url(/myFonts/Montserrat-VariableFont_wght.ttf);
 }
 @font-face{
     font-family: myPoppins;
@@ -17,11 +17,11 @@
 }
 @font-face{
     font-family: myAssistant;
-    src: url(/myFonts/Assistant-Regular.ttf);
+    src: url(/myFonts/Assistant-VariableFont_wght.ttf);
 }
 @font-face{
     font-family: myManrope;
-    src: url(/myFonts/Manrope-Regular.ttf);
+    src: url(/myFonts/Manrope-VariableFont_wght.ttf);
 }
 body{
     margin: 0;
@@ -110,6 +110,11 @@ label{
     padding: 0 150px;
     border: solid #fff;
 }
+.second-page h2{
+    font-family: myInter;
+    font-weight: 800;
+    border-bottom: 2px solid #F4511E;
+}
 .main2{
     display: flex;
     justify-content: center;
@@ -146,6 +151,8 @@ label{
 }
 h2{
     font-family: myInter;
+    font-weight: 800;
+    border-bottom: 2px solid #F4511E;
 }
 .top button{
     background-color: #F4511E;
