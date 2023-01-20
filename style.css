@@ -248,6 +248,7 @@ h4{
     font-size: medium;
     border: 1px solid #818181;
     font-weight: bold;
+    text-decoration: none;
 }
 #first{
     background-color: transparent;
