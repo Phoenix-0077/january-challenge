@@ -25,7 +25,6 @@
 }
 body{
     margin: 0;
-    background-color: black;
 }
 .first-page{
     background-image: url(etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.png);
@@ -55,9 +54,6 @@ body{
     color: #FFFFFF;
     text-decoration: none;
     font-family: myDM-Sans;
-}
-.nav-list:first-of-type{
-    border-bottom: 3px solid #FFFFFF;
 }
 .nav-list a:hover{
     border-bottom: 3px solid #FFFFFF;
@@ -571,9 +567,6 @@ input[type=submit]{
     .nav-list{
         padding: 0 5px;
     }
-    .nav-list:first-of-type{
-        border-bottom: 2px solid #FFFFFF;
-    }
     .header a{
         font-size: .7rem;
         position: relative;
@@ -608,23 +601,29 @@ input[type=submit]{
     .second-page h2{
         font-size: 1rem;
     }
+    .main2{
+        display: grid;
+        place-items: center;
+        justify-content: center;
+    }
     #main2img{
         height: 350px;
-        width: 150px;
+        width: 300px;
         left: -20px;
     }
     .perks{
         grid-template-columns: 1fr 1fr;
-        margin-left: 0px;
+        margin-left: 0;
     }
     .perks img{
         box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
         padding: 5px;
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
     .perks h3{
-        font-size: .5rem;    
+        font-size: .7rem; 
+        padding-right: 20px;   
     }
     .third-page{
         padding: 0 20px;
